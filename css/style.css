@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ---------------------------------------- */
+.team{
+    padding: 100px 0;
+    background-color: #212121;
+    text-align: center;
+}
+
+.team .title{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.team .title h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.team .member{
+    width: 24%; /*  100 / 4 = 25  */
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    float: left; 
+    margin: 0 5px;
+    transition: transform 0.5s;
+}
+
+.team .member img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.team .member .icons i{
+    color: darkblue;
+    font-size: 25px;
+    margin: 10px;
+    visibility: hidden;
+    transition: visibility 1s 0.5s;
+
+}
+
+.team .member .icons i:hover{
+    color: skyblue;
+}
+
+.team .member h3{
+    color: darkblue;
+    margin: 5px 0;
+}
+
+.team .member p{
+    color: #aaa;
+}
+
+
+.team .member:hover{
+    transform: scale(1.1);
+}
+.team .member:hover .icons i{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+.spinner-section{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.spinner-section i{
+    font-size: 40px;
+    margin: 0 20px;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
