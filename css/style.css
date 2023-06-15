@@ -1,5 +1,5 @@
 *{
-    margin: 0; 
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -7,58 +7,77 @@
     width: 70%;
     margin: auto;
 }
-h1,
-h2,
-h3 {
-    color: darkblue;
-    text-transform: uppercase;
-    margin: 5px 0;
-}
 
-p {
-    color: grey;
-}
-/* --------------------------------------- */
-/* team section */
-.team{
-    padding: 100px 0;
-    background-color: #f8fbfe;
-}
-
-.team .title{
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.team .d-flex{
+.d-flex{
     display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
     justify-content: space-between;
 }
 
-.team .person{
-    background-color: white;
-    width: 24%;
-    text-align: center;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.338);
+.align-center{
+    align-items: center;
 }
 
-.team .person img{
-    width: 100%;
-    border-radius: 5px 5px 0 0;
+a{
+    text-decoration: none;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 18px;
 }
 
-.team .person .icons{
-    padding: 10px 0;
+a:hover{
+    color: #ff7a57;
 }
 
-.team .person .icons i{
-    color: darkblue;
-    font-size: 20px;
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: capitalize;
     margin: 0 10px;
+    cursor: pointer;
 }
 
-.team .person .icons i:hover{
-    color: skyblue;
+.btn-primary{
+    background-color: #ff7a57;
+    color: white;
+    border: 1px solid #ff7a57;
 }
+
+.btn-primary:hover{
+    background-color: #ff5c31;
+    color: white;
+    border: 1px solid #ff5c31;
+}
+
+
+/* -------------------------------------------------- */
+/* nav */
+nav{
+    padding: 10px 0;
+    box-shadow:  0 4px 8px 0 rgba(128, 128, 128, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav img{
+    width: 75px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    gap: 0 20px;
+}
+
+/* nav */
