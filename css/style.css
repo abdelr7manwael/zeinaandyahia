@@ -256,3 +256,76 @@ main .icons i:hover{
 }
 
 /* service */   
+
+/* skills */
+.skills .row{
+    gap: 40px 0;
+}
+
+.w-85{
+    width: 85%;
+}
+
+
+.w-70{
+    width: 70%;
+}
+
+
+.w-65{
+    width: 65%;
+}
+
+.skills .parent{
+    background-color: #eaf0fc;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.skills .parent .child{
+    background-color: #ff7a57;
+    border-radius: 20px;
+    height: 5px;
+}
+
+
+/* skills */
+
+
+
+/* portfolio  */
+
+.portfolio .item{
+    width: 32%;
+}
+
+.portfolio .item img{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* portfolio  */
+
+
+.blog .orange{
+    background-color: #ff7a57;
+    color: white;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+
+
+.blog .orange  button{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
+.blog .orange  button:hover{
+    background-color: #e2e6ea;
+    border: 1px solid #e2e6ea;
+}
